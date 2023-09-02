@@ -1,7 +1,5 @@
 # jest-playground
 
-NOT YET FULLY IMPLEMENTED
-
 📚 Learning and exploring Jest, the JavaScript testing framework.
 
 > Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
@@ -55,9 +53,11 @@ project.
 General clean-ups, TODOs and things I wish to implement for this project:
 
 * [x] DONE Scaffold the project
-* [ ] IN PROGRESS Do something with mocks
+* [x] DONE Do something with mocks
   * I'm going to make a function that calls GitHub API using axios. This is a real enough example to make for an
     effective exercise of Jest features.
+* [ ] Figure out IDE support correctly. I'm using `require('@jest/globals');` and that's helpful but it doesn't work
+  for `jest` itself. Also, I don't declare it in `package.json`. I think I'm getting it from Intellij?
 * [ ] Get leverage. Jest brings a lot of features. If I'm pulling in the complexity, I want to use it. HTML reports?
   Watch mode? Code coverage? Things I don't know about yet?
 
