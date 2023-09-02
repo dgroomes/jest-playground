@@ -1,0 +1,13 @@
+{
+  "name": "jest-playground",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "type": "module",
+  "description": "Learning and exploring Jest, the JavaScript testing framework.",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
