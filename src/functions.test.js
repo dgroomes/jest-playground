@@ -1,4 +1,4 @@
-const {sum} = require('./functions.js');
+const {sum} = require('./functions');
 const {test, expect} = require('@jest/globals');
 
 test('adds 1 + 2 to equal 3', () => {

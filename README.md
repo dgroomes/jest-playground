@@ -1,6 +1,6 @@
 # jest-playground
 
-NOT YET IMPLEMENTED
+NOT YET FULLY IMPLEMENTED
 
 📚 Learning and exploring Jest, the JavaScript testing framework.
 
@@ -51,11 +51,13 @@ project.
 
 
 ## Wish List
-   
+
 General clean-ups, TODOs and things I wish to implement for this project:
 
-* [ ] Scaffold the project
-* [ ] Do something with mocks
+* [x] DONE Scaffold the project
+* [ ] IN PROGRESS Do something with mocks
+  * I'm going to make a function that calls GitHub API using axios. This is a real enough example to make for an
+    effective exercise of Jest features.
 * [ ] Get leverage. Jest brings a lot of features. If I'm pulling in the complexity, I want to use it. HTML reports?
   Watch mode? Code coverage? Things I don't know about yet?
 
